@@ -4,6 +4,7 @@ import twitter from '@images/twitter.png'
 import instagram from '@images/instagram.png'
 
 const Template = async () => {
+  console.log('hola')
   const data = await getData();
   const view = `
     <div class="About">
